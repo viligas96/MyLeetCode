@@ -1,4 +1,4 @@
-public class divide {
+public class LC029Divide2Int {
     public static int divide(int dividend, int divisor) {
 
         long di1 = Math.abs(dividend);

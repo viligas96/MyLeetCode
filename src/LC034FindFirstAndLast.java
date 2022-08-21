@@ -1,4 +1,4 @@
-public class FindFLElement {
+public class LC034FindFirstAndLast {
     public static int[] searchRange(int[] nums, int target) {
         if (nums.length == 1){
             return nums[0]==target?new int[]{0,0}:new int[]{-1,-1};

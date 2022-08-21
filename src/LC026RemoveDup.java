@@ -1,4 +1,4 @@
-public class removeDuplicate {
+public class LC026RemoveDup {
     static class Solution {
         public int removeDuplicates(int[] nums) {
             int len = nums.length;

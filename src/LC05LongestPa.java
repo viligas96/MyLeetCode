@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LongestP {
+public class LC05LongestPa {
     static class Solution {
         public Solution(){
         }

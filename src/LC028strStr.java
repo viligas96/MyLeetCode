@@ -1,4 +1,4 @@
-public class strStr {
+public class LC028strStr {
     public static int strStr(String haystack, String needle) {
         int len1 = haystack.length();
         int len2 = needle.length();

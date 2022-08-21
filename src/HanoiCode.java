@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-public class test<T> {
+public class HanoiCode{
 
     public static class Hanoi{
         public Hanoi(int N) {

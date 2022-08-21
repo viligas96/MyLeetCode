@@ -1,4 +1,4 @@
-public class searchRotateArray {
+public class LC33SearchRotateArray {
     public static int search(int[] nums, int target) {
         if (nums.length == 1){
             return nums[0] == target?0:-1;

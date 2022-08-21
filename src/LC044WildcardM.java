@@ -28,9 +28,6 @@ public class LC044WildcardM {
             }
             return true;
         }
-
-
-
         return false;
     }
 
