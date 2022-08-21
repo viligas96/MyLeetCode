@@ -1,3 +1,4 @@
 # MyLeetCode
 My own coding result for leetcode
-Always updated when I've just finished some leetcode problems.
+Updated when I just finish some leetcode problems.
+Typically coded on my own, sometimes contains answer from leetcode solution.
