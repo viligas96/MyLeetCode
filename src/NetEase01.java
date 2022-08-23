@@ -1,7 +1,8 @@
 public class NetEase01 {
     // NetEase interview coding problem:
-    // a and b are 2 integers. Remove one digit from either integers.
+    // a and b are 2 integers. Here's one operation: remove one digit from either integer.
     // To make the rest 2 integers: at least one integer can be divided by another with no remainder.
+    // What's the least number of operations needed?
     public static int minOperation(int a, int b){
         return process(a, b, 0);
     }
