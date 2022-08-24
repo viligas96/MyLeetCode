@@ -26,9 +26,6 @@ public class LC078Subset {
     }
 
     public static void main(String[] args){
-
         System.out.println(subsets(new int[]{1,2,3 }));
     }
-
-
 }
