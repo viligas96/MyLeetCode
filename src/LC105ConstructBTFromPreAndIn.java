@@ -20,7 +20,6 @@ public class LC105ConstructBTFromPreAndIn {
         for (int i = 0; i < inorder.length; i++) {
             map.put(inorder[i], i);
         }
-
         build(root, preorder, inorder);
         return root;
     }
