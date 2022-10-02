@@ -21,7 +21,6 @@ public class HanoiCode{
     }
 
     public static void main(String[] args){
-        Solution sol = new Solution();
         Hanoi han = new Hanoi(5);
         int[] a = {1,0,0,0,-1};
         int[] b = a.clone();
