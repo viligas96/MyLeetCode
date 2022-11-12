@@ -1,4 +1,4 @@
-public class Optiver {
+public class Op {
     static int totalYear(int year) throws Exception {
         int ret = 0;
         for (int i = 1; i < 13; i++){

@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-public class BlackRock2 {
+public class BR2 {
     /**
      * The Main class implements an application that reads lines from the standard input
      * and prints them to the standard output.

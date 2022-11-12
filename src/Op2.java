@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class optiver2 {
+public class Op2 {
     static boolean check1(String s){
         if ((s.length() + 1)%6 != 0) return false; // format length = (len)(pair + whitespace) * pair_num - 1 = 5 * num - 1
         String[] pairs = s.split(" ");

@@ -1,4 +1,4 @@
-public class zipRecruiter {
+public class Zr {
     public static class disjointSet{
         private final int value;
         private disjointSet parent;
