@@ -44,7 +44,7 @@ public class CommonCode {
             System.out.println(Arrays.deepToString(output));
         }
     }
-    // create class
+    // create class with generic
     public static class cla<E>{
         public int value;
         public E anyData;
@@ -63,11 +63,12 @@ public class CommonCode {
     }
 
     //Initialize data structure:
-    Queue<Integer> queue = new LinkedList<>();
-    Stack<Integer> stack = new Stack<>();
-
-
-
+    public static void initial() {
+        Queue<Integer> queue = new LinkedList<>();
+        Stack<Integer> stack = new Stack<>();
+        PriorityQueue<Integer> que = new PriorityQueue<>(Collections.reverseOrder());
+        //
+    }
 
     public static void main(String[] args){
         strBuff();
