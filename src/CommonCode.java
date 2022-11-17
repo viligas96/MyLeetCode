@@ -72,5 +72,9 @@ public class CommonCode {
 
     public static void main(String[] args){
         strBuff();
+        Scanner S = new Scanner(System.in);
+        String s = S.nextLine();
+
+
     }
 }
