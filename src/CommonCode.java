@@ -72,9 +72,15 @@ public class CommonCode {
 
     public static void main(String[] args){
         strBuff();
-        Scanner S = new Scanner(System.in);
-        String s = S.nextLine();
+        //Scanner S = new Scanner(System.in);
+        //String s = S.nextLine();
+        String a = "123";
+        String c = "123";
+        String b = new String("123");
+        System.out.println(a == b);
+        System.out.println(a == c);
 
+        HashSet<String> set = new HashSet<>();
 
     }
 }
