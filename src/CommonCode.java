@@ -29,9 +29,9 @@ public class CommonCode {
         }
     }
     // Comparator
-    public static class comparator implements Comparator<Integer>{
+    public static class comparator implements Comparator<int[]>{
         @Override
-        public int compare(Integer arr1, Integer arr2){
+        public int compare(int[] arr1, int[] arr2){
             // things to implement: compare
             return 0;
         }
@@ -40,7 +40,7 @@ public class CommonCode {
             Integer[] output = new Integer[]{1,2,3};
             System.out.println(Arrays.deepToString(output));
             // Third: Sort the array with the new Comparator class;
-            Arrays.sort(output, new comparator());
+            //Arrays.sort(output, new comparator());
             System.out.println(Arrays.deepToString(output));
         }
     }
@@ -82,5 +82,7 @@ public class CommonCode {
 
         HashSet<String> set = new HashSet<>();
 
+        Object obj = new StringBuilder("");
+        System.out.println(obj.getClass());
     }
 }

@@ -22,6 +22,7 @@ public class test {
         return 1;
     }
 
+
     public static void main(String[] args){
         test t = new test();
         String a = "abc";
