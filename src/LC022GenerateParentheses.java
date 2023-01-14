@@ -27,5 +27,7 @@ class Solution {
     public static void main(String[] args){
         Solution sol = new Solution();
         System.out.println(sol.generateParenthesis(4));
+
+        System.out.println(Math.sqrt(Math.pow(3, 2) + Math.pow(4, 2)));
     }
 }

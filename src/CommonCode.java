@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*;
 
 public class CommonCode {
     // Unimproved version of disjointSet
@@ -71,7 +72,9 @@ public class CommonCode {
     }
 
     public static void main(String[] args){
-        strBuff();
+        int  i = 1;
+        i = i++;
+        System.out.println(i);
         //Scanner S = new Scanner(System.in);
         //String s = S.nextLine();
         String a = "123";
@@ -84,5 +87,18 @@ public class CommonCode {
 
         Object obj = new StringBuilder("");
         System.out.println(obj.getClass());
+
+        System.out.println("abc\rcde\nfgh");
+
+        File file = new File("D:\\Algorithm and data structure\\abcd.txt");
+        try {
+            Scanner myReader = new Scanner(file);
+            while (myReader.hasNextLine()) {
+                String data = myReader.nextLine();
+                System.out.println(data);
+            }
+        } catch (FileNotFoundException e){
+            System.out.println("failed");
+        }
     }
 }

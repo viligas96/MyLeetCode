@@ -1,5 +1,6 @@
 import java.util.*;
 public class LC227BasicCaculatorII {
+
     public static int calculate(String s) {
         int len = s.length();
         if (len == 1) return Integer.parseInt(s);
